@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Bai Jamjuree";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 150%;
+}
+
+.logo {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.head {
+    color: hsl(210, 10%, 33%); 
+    font-weight: 600;
+    margin: 5px 0px 5px 0px;
+}
+
+.detail {
+    font-weight: 600;
+    color: hsl(201, 11%, 66%);
+    width: 50%;
+    min-width: 580px;
+    font-weight: 500;
+}
+
+.button {
+   width: 150px;
+   height: 50px;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-weight: 500;
+   margin: 30px 15px 100px 0px;
+   border-radius: 2rem;
+   border-bottom: 2px solid hsla(170, 65%, 19%, 0.521);
+   cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coloum {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    position: unset;
+    margin: 0px 10% 0px 0px;
+    width: 25%;
+    min-width: 250px;
+    position: relative;
+    right: 3%;
+}
+
+.t {
+    font-weight: 600;
+    color: hsl(201, 11%, 66%);
+    width: auto;
+    min-width: auto;
+    font-weight: 500;
+}
+
+.image-computer {
+    width: 60%;
+    height: max-content;
+    align-self: center;
+    position: relative;
+    right: 5%;
+    top: 30px;
+}
+
+.image-devices {
+    width: 50%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0px 90px 0px;
+}
+
+.png {
+    width: 10%;
+    min-width: 85px;
+    height: fit-content;
+}
+
+.row-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 50px 0% 70px 0px;
+}
+
+.coloum-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    position: unset;
+    width: 25%;
+    min-width: 172px;
+}
+
+.snippet {
+    width: 20%;
+}
+
+.end-bar {
+    width: 100%;
+    background-color: #ebebeb;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.end-logo {
+     width: 60px;
+     height: 60px;
+}
+
+.footers {
+    width: 30%;
+    min-width: 400px;
+    color: hsl(210, 10%, 33%);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot {
+    margin: 1%;
+    height: 50%;
+    cursor: pointer;
+}
+
+@media (max-width:599px) {
+    body {
+        background: url(images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    
+    .head {
+        line-height: 150%;
+    }
+    
+    .detail {
+        width: 80%;
+        min-width: auto;
+    }
+    
+    .button {
+       width: 60%;
+       margin: 30px 0px 10px 0px;
+       align-self: center;
+    }
+    
+    .row {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:30px 0px 0px 0px;
+    }
+    
+    .coloum {
+        text-align: center;
+        position: unset;
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        position: unset;
+    }
+    
+    .t {
+        width: 50%;
+        align-self: center;        
+   
+    }
+    
+    .image-computer {
+        width: 80%;
+        position: unset;
+    }
+    
+    .image-devices {
+        width: 80%;
+    }
+    
+    .icons {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0px 30px 0px;
+    }
+    
+    .png {
+        width: auto;
+        min-width: auto;
+        margin: 20px;
+    }
+    
+    .row-sec {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0% 0px 0px;
+    }
+    
+    .coloum-sec {
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .snippet {
+        width: 15%;
+        min-width: 60px;
+    }
+    
+    .end-bar {
+        height: auto;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .end-logo {
+        margin: 15px;
+    }
+    
+    .footers {
+        margin: 15px;
+        flex-direction: column;
+    }
+    
+    .font-awesome {
+        margin: 20px;
+    }
+}
+
